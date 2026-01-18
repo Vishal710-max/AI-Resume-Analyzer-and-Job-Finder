@@ -1,7 +1,7 @@
 🤖 AI Resume Analyzer & Job Finder
 
-    An end-to-end AI-powered resume analysis and job-matching platform that helps users evaluate resumes, identify skill gaps, receive role-based recommendations, and match      resumes with relevant job descriptions.
-    Built with a modern full-stack architecture, secure authentication, and NLP-driven analysis.
+An end-to-end AI-powered resume analysis and job-matching platform that helps users evaluate resumes, identify skill gaps, receive role-based recommendations, and match      resumes with relevant job descriptions.
+Built with a modern full-stack architecture, secure authentication, and NLP-driven analysis.
 
 🚀 Features
 
