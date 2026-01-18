@@ -7,15 +7,15 @@ Built with a modern full-stack architecture, secure authentication, and NLP-driv
 
 🔍 Resume Analysis
 
-    Upload PDF resumes for automated analysis
+Upload PDF resumes for automated analysis
     
-    Extracts skills, keywords, and experience using NLP
+Extracts skills, keywords, and experience using NLP
     
-    Calculates an ATS-style resume score
+Calculates an ATS-style resume score
     
-    Determines candidate level (Fresher / Intermediate / Experienced)
+Determines candidate level (Fresher / Intermediate / Experienced)
     
-    Provides actionable improvement suggestions
+Provides actionable improvement suggestions
 
 🎯 Resume–Job Matching
 
