@@ -1,10 +1,8 @@
 🤖 AI Resume Analyzer & Job Finder
-
 A modern, AI-powered resume analysis and job-matching platform built with a full-stack architecture.
 The system analyzes resumes using NLP techniques, scores them against ATS-style criteria, recommends suitable roles and courses, and matches resumes with job descriptions. Designed as a production-style SaaS project to demonstrate full-stack, backend, and AI integration skills.
 
 Table of contents
-
 Features
 
 Demo / Screenshots
@@ -27,6 +25,8 @@ Development
 
 Future enhancements
 
+License & Acknowledgements
+
 Contact
 
 Features
@@ -36,7 +36,7 @@ Upload PDF resumes for AI-powered analysis
 
 Extracts skills, keywords, and experience using NLP
 
-Calculates an ATS-style resume score
+Calculates ATS-style resume score
 
 Identifies candidate level (Fresher / Intermediate / Experienced)
 
@@ -77,7 +77,6 @@ User profile with resume history and analytics
 Plan-based feature gating (Free / Pro-ready)
 
 Demo / Screenshots
-
 Suggested screenshots to include:
 
 Home page (resume upload & features overview)
@@ -90,40 +89,52 @@ Job matching result view
 
 Profile page (resume history & analytics)
 
-📌 Add screenshots inside assets/images/ and link them here for maximum recruiter impact.
+<div align="center">
+<table>
+<tr>
+<td>
+<a href="assets/images/home.png">
+<img src="assets/images/home.png" alt="Home Page" width="520" />
+</a>
+</td>
+<td>
+<a href="assets/images/login.png">
+<img src="assets/images/login.png" alt="Login Page" width="520" />
+</a>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>Figure 1.</strong> Home Page</td>
+<td align="center"><strong>Figure 2.</strong> Login Page</td>
+</tr>
+<tr>
+<td>
+<a href="assets/images/analysis.png">
+<img src="assets/images/analysis.png" alt="Resume Analysis" width="520" />
+</a>
+</td>
+<td>
+<a href="assets/images/matching.png">
+<img src="assets/images/matching.png" alt="Job Matching" width="520" />
+</a>
+</td>
+</tr>
+<tr>
+<td align="center"><strong>Figure 3.</strong> Resume Analysis Dashboard</td>
+<td align="center"><strong>Figure 4.</strong> Job Matching Results</td>
+</tr>
+</table>
+</div>
 
 Tech stack
-Frontend
+Frontend: React, Tailwind CSS, Vite
 
-React
+Backend: Python (FastAPI), JWT authentication, OAuth 2.0 (Google & GitHub), MongoDB
 
-Tailwind CSS
-
-Vite
-
-Backend
-
-Python (FastAPI-style architecture)
-
-JWT authentication
-
-OAuth 2.0 (Google & GitHub)
-
-MongoDB
-
-AI / NLP
-
-Resume text parsing
-
-Skill & keyword extraction
-
-ATS-style scoring logic
-
-Resume–job similarity matching
+AI / NLP: Resume text parsing, skill & keyword extraction, ATS-style scoring, resume–job similarity matching
 
 Requirements
-
-Node.js 18+
+Node.js  18+
 
 Python 3.9+
 
@@ -131,50 +142,46 @@ MongoDB (local or Atlas)
 
 Internet connection for OAuth and package installation
 
+Install dependencies:
+
+bash
+pip install -r requirements.txt
 Install & Run
-1. Clone the repository
+Clone the repository:
+
+bash
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
+Backend setup:
 
-2. Backend setup
-
-Create and activate a virtual environment:
-
+bash
 python -m venv venv
 source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate      # Windows
 
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-
 Create a .env file:
 
+env
 MONGODB_URI=mongodb://localhost:27017/resume_analyzer
 JWT_SECRET=your_jwt_secret
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 GITHUB_CLIENT_ID=your_github_client_id
 GITHUB_CLIENT_SECRET=your_github_client_secret
-
-
 Run backend:
 
+bash
 uvicorn main:app --reload
+Frontend setup:
 
-3. Frontend setup
+bash
 cd frontend
 npm install
 npm run dev
-
-
-Open:
-👉 http://localhost:5173
+Open: http://localhost:5173
 
 Quick start
-
 Register a new account or sign in using Google/GitHub
 
 Upload a PDF resume
@@ -188,7 +195,6 @@ Explore recommended courses based on skill gaps
 Manage resume history and analytics from the profile page
 
 Usage notes
-
 Only PDF resumes are supported
 
 Resume history and analytics are plan-gated
@@ -198,7 +204,6 @@ OAuth users share the same identity model as email/password users
 All AI processing happens server-side for consistency
 
 Authentication & security
-
 JWT-based authentication for API access
 
 OAuth 2.0 login with Google and GitHub
@@ -210,6 +215,7 @@ Secure token handling and logout flow
 Passwords are hashed before storage
 
 Project structure
+Code
 ai-resume-analyzer/
 ├── backend/
 │   ├── main.py               # Application entry point
@@ -236,9 +242,7 @@ ai-resume-analyzer/
 │   └── images/               # Screenshots & branding
 │
 └── README.md
-
 Development
-
 Modular frontend component design
 
 Clean separation of concerns in backend services
@@ -248,7 +252,6 @@ Error handling and validation for all APIs
 Designed to be extensible for future SaaS features
 
 Future enhancements
-
 Payment integration for Pro subscriptions
 
 Advanced analytics dashboard
@@ -259,10 +262,24 @@ Multi-resume comparison
 
 Admin insights panel
 
-Contact
+License & Acknowledgements
+Add your preferred license file (e.g., MIT) to the repository.
 
-Vishal Bhingarde
+Acknowledgements:
+
+React, Tailwind CSS, Vite — frontend framework & styling
+
+FastAPI — backend framework
+
+MongoDB — database
+
+JWT & OAuth — authentication
+
+NLP libraries — resume parsing & scoring
+
+Contact
+Created by Vishal Bhingarde  
 Final-year Computer Science student
 Focused on full-stack development, backend systems, and AI-driven applications
 
-For questions, feedback, or collaboration, feel free to open an issue or pull request. 
+For questions, feedback, or collaboration, open an issue or pull request in this repository.
