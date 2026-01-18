@@ -7,82 +7,82 @@
 
 🔍 Resume Analysis
 
-  Upload PDF resumes for automated analysis
+   Upload PDF resumes for automated analysis
     
-  Extracts skills, keywords, and experience using NLP
+   Extracts skills, keywords, and experience using NLP
     
-  Calculates an ATS-style resume score
+   Calculates an ATS-style resume score
     
-  Determines candidate level (Fresher / Intermediate / Experienced)
+   Determines candidate level (Fresher / Intermediate / Experienced)
     
-  Provides actionable improvement suggestions
+   Provides actionable improvement suggestions
 
 
 🎯 Resume–Job Matching
 
-  Matches resumes against job descriptions
+   Matches resumes against job descriptions
 
-  Scores compatibility based on skill and keyword alignment
+   Scores compatibility based on skill and keyword alignment
 
-  Generates clear match insights for role suitability
+   Generates clear match insights for role suitability
 
 
 ✍️ AI Resume Rewrite
 
-  Rewrites resume sections for specific target roles
+   Rewrites resume sections for specific target roles
 
-  Improves clarity, relevance, and professional tone
+   Improves clarity, relevance, and professional tone
 
 
 🎓 Course Recommendations
 
-  Suggests learning resources based on missing skills
+   Suggests learning resources based on missing skills
 
-  Personalized recommendations aligned with career goals
+   Personalized recommendations aligned with career goals
 
 
 👤 User Management
 
-  Secure authentication using JWT
+   Secure authentication using JWT
 
-  OAuth sign-in with Google and GitHub
+   OAuth sign-in with Google and GitHub
 
-  User profile with resume history and analytics
+   User profile with resume history and analytics
 
-  Plan-based feature access (Free / Pro-ready)
+   Plan-based feature access (Free / Pro-ready)
 
 
 🧩 Tech Stack
 
 Frontend
 
-  React
+   React
 
-  Tailwind CSS
+   Tailwind CSS
 
-  Vite
+   Vite
 
-  Modular component-based architecture
+   Modular component-based architecture
 
 Backend
 
-  Python (FastAPI-style services)
+   Python (FastAPI-style services)
 
-  JWT Authentication
+   JWT Authentication
 
-  OAuth 2.0 (Google & GitHub)
+   OAuth 2.0 (Google & GitHub)
 
-  MongoDB
+   MongoDB
 
-  AI / NLP
+   AI / NLP
 
 Resume text parsing
 
-  Skill & keyword extraction
+   Skill & keyword extraction
 
-  Rule-based + NLP scoring
+   Rule-based + NLP scoring
 
-  Job–resume similarity matching
+   Job–resume similarity matching
 
 
 🔐 Authentication Flow
@@ -95,7 +95,7 @@ Resume text parsing
 
    Secure token handling and logout flow
 
- This ensures:
+This ensures:
 
    Correct profile data after OAuth login
 
@@ -113,17 +113,17 @@ Resume text parsing
 
    Resume is scored against ATS-style criteria
 
- AI generates:
+AI generates:
 
    Strengths & weaknesses
 
    Role recommendations
 
- Improvement tips
+Improvement tips
 
    Results are saved and displayed in the user dashboard
 
- 🔍 Job Matching Flow
+🔍 Job Matching Flow
 
    User provides a job description
 
@@ -136,3 +136,20 @@ Resume text parsing
    Feedback is shown with actionable insights
 
    
+🔮 Future Enhancements
+
+  Payment integration for Pro subscriptions
+  
+  Advanced analytics dashboard
+  
+  Real-time job listings integration
+  
+  Multi-resume comparison
+  
+  Admin insights panel
+
+👨‍💻 Author
+
+  Vishal Bhingarde
+  Final-year Computer Science student
+  Focused on full-stack development, backend systems, and AI-driven applications
