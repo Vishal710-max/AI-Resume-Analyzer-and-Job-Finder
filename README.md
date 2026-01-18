@@ -17,6 +17,7 @@ Determines candidate level (Fresher / Intermediate / Experienced)
     
 Provides actionable improvement suggestions
 
+
 🎯 Resume–Job Matching
 
 Matches resumes against job descriptions
@@ -25,17 +26,20 @@ Scores compatibility based on skill and keyword alignment
 
 Generates clear match insights for role suitability
 
+
 ✍️ AI Resume Rewrite
 
 Rewrites resume sections for specific target roles
 
 Improves clarity, relevance, and professional tone
 
+
 🎓 Course Recommendations
 
 Suggests learning resources based on missing skills
 
 Personalized recommendations aligned with career goals
+
 
 👤 User Management
 
@@ -46,3 +50,4 @@ OAuth sign-in with Google and GitHub
 User profile with resume history and analytics
 
 Plan-based feature access (Free / Pro-ready)
+
