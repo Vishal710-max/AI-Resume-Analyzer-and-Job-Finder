@@ -272,7 +272,6 @@ ai-resume-analyzer/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/       # Reusable React components
-│   │   ├── pages/            # Page-level components
 │   │   ├── api/              # API integration utilities
 │   │   ├── App.jsx           # Main application component
 │   │   └── main.jsx          # Application entry point
@@ -348,8 +347,8 @@ Please open an issue to discuss larger changes before implementing them.
 
 ---
 
-## License & Acknowledgements
-- Add your preferred license file (e.g., MIT) to the repository.
+## Acknowledgements
+
 - Acknowledgements:
   - **React** — Frontend framework
   - **FastAPI** — Backend API framework
@@ -371,9 +370,7 @@ Final-year Computer Science student focused on full-stack development, backend s
 For questions, feature requests, feedback, or collaboration opportunities:
 - Open an issue in this repository
 - Submit a pull request
-- Connect on [LinkedIn](your-linkedin-url)
-- Check out my portfolio: [your-portfolio-url]
-
+- Connect on [LinkedIn](www.linkedin.com/in/vishal-bhingarde-bb23a2376)
 ---
 
 **⭐ If you find this project helpful, please consider giving it a star!**
