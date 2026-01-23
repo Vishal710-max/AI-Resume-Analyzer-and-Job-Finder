@@ -347,8 +347,8 @@ Please open an issue to discuss larger changes before implementing them.
 
 ---
 
-## Acknowledgements
-
+## License & Acknowledgements
+- This project is provided for personal and educational use.
 - Acknowledgements:
   - **React** — Frontend framework
   - **FastAPI** — Backend API framework
