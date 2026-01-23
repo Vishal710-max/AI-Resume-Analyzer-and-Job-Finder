@@ -379,4 +379,19 @@ Please open an issue to discuss larger changes before implementing them.
 
 ---
 
-**⭐ If you find this project helpful, please consider giving it a star!**
+## ⭐ Show Your Support
+
+If you found this project helpful, please give it a ⭐️!
+
+<div align="center">
+
+**Made with ❤️ by Vishal Bhingarde**
+
+[![Star this repo](https://img.shields.io/github/stars/Vishal710-max/AI-Resume-Analyzer-and-Job-Finder?style=social)](https://github.com/Vishal710-max/AI-Resume-Analyzer-and-Job-Finder)
+[![Fork this repo](https://img.shields.io/github/forks/Vishal710-max/AI-Resume-Analyzer-and-Job-Finder?style=social)](https://github.com/Vishal710-max/AI-Resume-Analyzer-and-Job-Finder/fork)
+
+</div>
+
+---
+
+<div align="center">
