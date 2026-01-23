@@ -18,7 +18,7 @@ A modern, AI-powered resume analysis and job-matching platform built with a full
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License & Acknowledgements](#license--acknowledgements)
-- [Contact](#contact)
+- [Contact](#-contact)
 
 ---
 
