@@ -370,7 +370,15 @@ Final-year Computer Science student focused on full-stack development, backend s
 For questions, feature requests, feedback, or collaboration opportunities:
 - Open an issue in this repository
 - Submit a pull request
-- Connect on [LinkedIn](www.linkedin.com/in/vishal-bhingarde-bb23a2376)
+
+- 📬 Contact Me on 
+
+- 📧 Email: bhingardevishal5@gmail.com
+
+- 💼 LinkedIn: www.linkedin.com/in/vishal-bhingarde-bb23a2376
+
+- 🐙 GitHub: [github.com/ ](https://github.com/Vishal710-max)
+
 ---
 
 **⭐ If you find this project helpful, please consider giving it a star!**
